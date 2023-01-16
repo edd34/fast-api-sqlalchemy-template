@@ -1,7 +1,7 @@
 from fastapi import Depends, FastAPI
 
 from app import exceptions
-from app.components.decks.views import router as decks_router
+from app.components.decks.api.v1 import router as decks_router
 from app.config import settings
 from app.db.deps import set_db
 from app.db.exceptions import DatabaseValidationError
