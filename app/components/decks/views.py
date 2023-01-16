@@ -2,7 +2,7 @@ from typing import Any, List
 
 from fastapi import APIRouter, HTTPException
 
-from app.apps.decks import models, schemas
+from app.components.decks import models, schemas
 from app.db.utils import transaction
 
 
